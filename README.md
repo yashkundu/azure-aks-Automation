@@ -1,3 +1,12 @@
+# Azure aks automation scripts
+
+Shell scripts that safely starts and stop azure Kubernetes cluster whenever someone visits the proxy and automatically routes the traffic to the cluster or the demo server if cluster is not alive.
+
+## Tech Stack
+
+- Shell scripting
+- [Falcon](https://github.com/yashkundu/falcon) as the reverse proxy server.
+
 ## Usage/Examples
 
 We will be using Ubuntu Linux Container\
